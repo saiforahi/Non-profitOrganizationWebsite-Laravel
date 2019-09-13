@@ -12,4 +12,5 @@
 */
 
 Route::get('/', 'PagesController@home');
+Route::post('/','PagesController@storeEmail');
 Route::get('/about','PagesController@about');

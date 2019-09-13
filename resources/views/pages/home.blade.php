@@ -1,70 +1,5 @@
 @extends('layouts.app')
 @section('content')
-<div class="navbar navbar-default navbar-fixed-top" role="navigation" style="padding-bottom: 1%">
-    <div class="container">
-      <div class="navbar-header" style="align-content: center" >
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span> 
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="{{action("PagesController@home")}}" style= "align-content: center" >
-          <img src="{{ asset('image/nfycbd_logo_p.png') }}" alt="{{ asset('image/nfycbd_logo') }}" class="img-responsive">NFOYC
-        </a>
-
-      </div>
-      
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">HOME <span class="caret"></span></a>
-            <ul class="dropdown-menu dropdown-menu-left" role="menu">
-              <li><a href="{{action("PagesController@home")}}">Home Default</a></li>
-              <li><a href="{{action("PagesController@home")}}">Home Animated Slider</a></li>
-            </ul>
-          </li>
-          <li><a href="{{action("PagesController@about")}}">ABOUT</a></li>
-          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Organization<span class="caret"></span></a>
-            <ul class="dropdown-menu dropdown-menu-left" role="menu">
-              <li><a href="#">Childrens Ministry</a></li>
-              <li><a href="#">Students Ministry</a></li>
-              <li><a href="#">Groups</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">SERMONS <span class="caret"></span></a>
-            <ul class="dropdown-menu dropdown-menu-left" role="menu">
-              <li><a href="sermons.html">Foundation-Occupied</a></li>
-              <li><a href="sermons.html">God's Love</a></li>
-              <li><a href="sermons.html">Faithfulness</a></li>
-              <li><a href="sermons.html">Praise Him</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <span class="caret"></span></a>
-            <ul class="dropdown-menu dropdown-menu-left" role="menu">
-              <li><a href="image-gallery.html">Image Gallery</a></li>
-              <li><a href="video-gallery.html">Video Gallery</a></li>
-              <li><a href="blog.html">Blog list</a></li>
-              <li><a href="blog-single.html">Blog Single</a></li>
-              <li><a href="events-programs.html">Events &amp; Programs</a></li>
-              <li><a href="event-single.html">Event Single</a></li>
-              <li><a href="event-calendar.html">Event Calendar</a></li>
-              <li><a href="charity-donation.html">Charity &amp; Donations</a></li>
-              <li class="divider"></li>
-              <li class="dropdown-header">OTHER PAGES</li>
-              <li><a href="prayers.html">Prayers</a></li>
-              <li><a href="faq.html">FAQ</a></li>
-              <li><a href="shortcodes.html">Shortcodes</a></li>
-              <li><a href="full-width.html">Full Width</a></li>
-              <li><a href="left-sidebar.html">Left Sidebar</a></li>
-              <li><a href="https://bit.ly/BuyCatholic">Buy this Template</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -75,7 +10,7 @@
       <div class="item slide-one active">
         <div class="container">
           <div class="carousel-caption">
-            <h3>EXPERIENCE GOD'S</h3>
+            <h3>banner 1</h3>
             <h1>UNCEASING PROVISION</h1>
             <p><a class="btn btn-giant btn-primary" href="charity-donation.html" role="button">JOIN US &rarr;</a></p>
           </div>
@@ -84,7 +19,7 @@
       <div class="item slide-two">
         <div class="container">
           <div class="carousel-caption">
-            <h2>Waves of Grace</h2>
+            <h2>banner 2</h2>
             <p class="lead">Receive the unceasing wave after wave, after wave, after wave of Grace God has for you.</p>
             <p><a class="btn btn-lg btn-primary" href="ministry.html" role="button">Learn more &rarr;</a></p>
           </div>
@@ -93,7 +28,7 @@
       <div class="item slide-three">
         <div class="container">
           <div class="carousel-caption">
-            <h2>Grace and Truth</h2>
+            <h2>banner 3</h2>
             <p class="lead">For God did not send his Son into the world to condemn the world, but to save the world through him. <em>John 3:17</em></p>
             <p><a class="btn btn-lg btn-primary" href="image-gallery.html" role="button">Browse gallery &rarr;</a></p>
           </div>
@@ -102,6 +37,123 @@
     </div>
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
     <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+  </div>
+
+  <div class="highlight-bg has-margin-bottom">
+    <div class="container event-cta">
+      <div class="ec-txt"> <span>UPCOMING EVENT</span>
+        <p>"The Law Demands, but Grace Supplies" - Paster J.P.</p>
+      </div>
+      <a class="btn btn-lg btn-primary" href="event-single.html" role="button">Program details →</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row feature-block">
+      <div class="col-md-4 col-sm-6 has-margin-bottom">
+        <img class="img-responsive" src="{{ asset('image/thumb-1.jpg') }}" alt="catholic church">
+        <h5>GUIDED BY THE HOLY SPIRIT</h5>
+        <p>Experience God's Wisdom each day as you are lead by the Holy Spirit. Walk effortlessly into success and happiness and understand the Father's love for you. </p>
+        <p><a href="about.html" role="button">View details →</a></p>
+      </div>
+      <div class="col-md-4 col-sm-6 has-margin-bottom">
+        <img class="img-responsive" src="{{ asset('image/thumb-2.jpg') }}" alt="ministry sermon">
+        <h5>LAW DEMANDS; GRACE SUPPLIES</h5>
+        <p>Jesus came and fulfilled the laws, the only one who could keep the laws so that in Him we can be made righteous and not have to suffer death for our sins. </p>
+        <p><a href="sermons.html" role="button">View details →</a></p>
+      </div>
+      <div class="col-md-4 col-sm-8 col-sm-offset-2 col-md-offset-0 center-this has-margin-bottom">
+        <img class="img-responsive" src="{{ asset('image/thumb-3.jpg') }}" alt="bulletin programs">
+        <h5>CHRIST OCCUPIED</h5>
+        <p>It may sound good to Mankind to be self-occupied. But God wants you to be Christ-Occupied and receive all of your blessings through resting in the work of Jesus.</p>
+        <p><a href="events-programs.html" role="button">View details →</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row feature-block">
+      <div class="col-md-4 col-sm-6 has-margin-bottom">
+        <img class="img-responsive" src="{{ asset('image/thumb-1.jpg') }}" alt="catholic church">
+        <h5>GUIDED BY THE HOLY SPIRIT</h5>
+        <p>Experience God's Wisdom each day as you are lead by the Holy Spirit. Walk effortlessly into success and happiness and understand the Father's love for you. </p>
+        <p><a href="about.html" role="button">View details →</a></p>
+      </div>
+      <div class="col-md-4 col-sm-6 has-margin-bottom">
+        <img class="img-responsive" src="{{ asset('image/thumb-2.jpg') }}" alt="ministry sermon">
+        <h5>LAW DEMANDS; GRACE SUPPLIES</h5>
+        <p>Jesus came and fulfilled the laws, the only one who could keep the laws so that in Him we can be made righteous and not have to suffer death for our sins. </p>
+        <p><a href="sermons.html" role="button">View details →</a></p>
+      </div>
+      <div class="col-md-4 col-sm-8 col-sm-offset-2 col-md-offset-0 center-this has-margin-bottom">
+        <img class="img-responsive" src="{{ asset('image/thumb-3.jpg') }}" alt="bulletin programs">
+        <h5>CHRIST OCCUPIED</h5>
+        <p>It may sound good to Mankind to be self-occupied. But God wants you to be Christ-Occupied and receive all of your blessings through resting in the work of Jesus.</p>
+        <p><a href="events-programs.html" role="button">View details →</a></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="highlight-bg has-margin-bottom">
+    <div class="container event-list">
+      <div class="section-title">
+        <h4> PROGRAMS &amp; EVENTS </h4>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="owl-carousel">
+            <div class="el-block item">
+              <h4> JULY 16 </h4>
+              <p class="el-head">Weekly meeting &amp; prayer</p>
+              <span>Monday 07:00 AM</span>
+              <p class="el-cta"><a class="btn btn-primary" href="event-single.html" role="button">Details &rarr;</a></p>
+            </div>
+            <div class="el-block item">
+              <h4> JUL 29 </h4>
+              <p class="el-head">Show me your faith</p>
+              <span>Thursday 02:00 PM</span>
+              <p class="el-cta"><a class="btn btn-primary" href="event-single.html" role="button">Details &rarr;</a></p>
+            </div>
+            <div class="el-block item">
+              <h4> SEP 19 </h4>
+              <p class="el-head">Perseravance of the saints</p>
+              <span>Saturday 10:00 AM</span>
+              <p class="el-cta"><a class="btn btn-primary" href="event-single.html" role="button">Details &rarr;</a></p>
+            </div>
+            <div class="el-block item">
+              <h4> OCT 14 </h4>
+              <p class="el-head">God's irresistable grace</p>
+              <span>Sunday 11:00 AM</span>
+              <p class="el-cta"><a class="btn btn-primary" href="event-single.html" role="button">Details &rarr;</a></p>
+            </div>
+            <div class="el-block item">
+              <h4> JULY 16 </h4>
+              <p class="el-head">Weekly meeting &amp; prayer</p>
+              <span>Monday 07:00 AM</span>
+              <p class="el-cta"><a class="btn btn-primary" href="event-single.html" role="button">Details &rarr;</a></p>
+            </div>
+            <div class="el-block item">
+              <h4> JUL 29 </h4>
+              <p class="el-head">Show me your faith</p>
+              <span>Thursday 02:00 PM</span>
+              <p class="el-cta"><a class="btn btn-primary" href="event-single.html" role="button">Details &rarr;</a></p>
+            </div>
+            <div class="el-block item">
+              <h4> SEP 19 </h4>
+              <p class="el-head">Perseravance of the saints</p>
+              <span>Saturday 10:00 AM</span>
+              <p class="el-cta"><a class="btn btn-primary" href="event-single.html" role="button">Details &rarr;</a></p>
+            </div>
+            <div class="el-block item">
+              <h4> OCT 14 </h4>
+              <p class="el-head">God's irresistable grace</p>
+              <span>Sunday 11:00 AM</span>
+              <p class="el-cta"><a class="btn btn-primary" href="event-single.html" role="button">Details &rarr;</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="js/jquery.js"></script>

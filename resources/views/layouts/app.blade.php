@@ -7,10 +7,13 @@
   <meta name="description" content="Our organization is a premium HTML5 Church Website Template with Responsive design. Church Template includes many pages like Bulletin, Programs, events, sermons, ministries, working church contact form etc..">
   <meta name="keywords" content="Youth,organization, Website, Template, Bulletin, Programs, Events, Charity, Non Profit ">
   <meta name="author" content="Shaif Azad">
-  <title>{{ config('appname','NFOYC') }}</title>
+  <title>{{ config('app.name','NFOYC') }}</title>
   <script src="../../cdn-cgi/apps/head/-mEFVS8y7qx5pVzWHQTCQu5gnVM.js"></script>
   <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/fancybox.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/fullcalender.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/flexslider.css') }}" rel="stylesheet">
 
   <!--[if lt IE 9]>
   <script src="js/html5shiv.js"></script>
@@ -23,7 +26,9 @@
 </head>
 
 <body>
+    @include('includes.navbar')
     @yield ('content')
+    @include('includes.footer')
 </body>
 
 </html>
