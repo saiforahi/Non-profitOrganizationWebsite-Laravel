@@ -16,10 +16,11 @@ class PagesController extends Controller
         return view("pages.about");
     }
 
-    public function storeEmail()
+    public function storeEmail($email)
     {
+        
         $newSubscriber= new Subscriber();
-        $newSubscriber->email=request('emailField');
+        $newSubscriber->email=$email;
         $newSubscriber->save();
         return redirect()->back();
     }

@@ -2,6 +2,26 @@
 
 All notable changes to `ignition` will be documented in this file
 
+## 1.6.5 - 2019-09-13
+
+- Ignore invalid characters in JSON encoding. Fixes #138
+
+## 1.6.4 - 2019-09-13
+
+- add no-index on error page
+
+## 1.6.3 - 2019-09-12
+
+- Fix `RouteNotDefinedSolutionProvider` in Laravel 5
+
+## 1.6.2 - 2019-09-12
+
+- updated publishing tag from default config
+
+## 1.6.1 - 2019-09-12
+
+- Resolve configuration from the injected application instead of the helper - Fixes #131
+
 ## 1.6.0 - 2019-09-09
 
 - add `RouteNotDefined` solution provider (#113)
