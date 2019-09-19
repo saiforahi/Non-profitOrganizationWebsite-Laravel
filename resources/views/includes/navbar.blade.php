@@ -14,12 +14,7 @@
       
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">HOME <span class="caret"></span></a>
-            <ul class="dropdown-menu dropdown-menu-left" role="menu">
-              <li><a href="{{action("PagesController@home")}}">Home Default</a></li>
-              <li><a href="{{action("PagesController@home")}}">Home Animated Slider</a></li>
-            </ul>
-          </li>
+          <li><a href="{{ action("PagesController@home") }}">HOME</a></li>
           <li><a href="{{action("PagesController@about")}}">ABOUT</a></li>
           <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Organization<span class="caret"></span></a>
             <ul class="dropdown-menu dropdown-menu-left" role="menu">
@@ -28,7 +23,7 @@
               <li><a href="#">Groups</a></li>
             </ul>
           </li>
-          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">SERMONS <span class="caret"></span></a>
+          <!--<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">SERMONS <span class="caret"></span></a>
             <ul class="dropdown-menu dropdown-menu-left" role="menu">
               <li><a href="sermons.html">Foundation-Occupied</a></li>
               <li><a href="sermons.html">God's Love</a></li>
@@ -55,7 +50,7 @@
               <li><a href="left-sidebar.html">Left Sidebar</a></li>
               <li><a href="https://bit.ly/BuyCatholic">Buy this Template</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a href="contact.html">CONTACT</a></li>
         </ul>
       </div>

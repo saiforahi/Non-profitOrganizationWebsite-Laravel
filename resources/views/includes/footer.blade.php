@@ -3,7 +3,7 @@
       <div class="row">
         <div class="col-sm-6 col-md-3" >
           <h5>About The Organization</h5>
-            <p>For the word of God is living and active. Sharper than any double-edged sword, it penetrates even to dividing soul and spirit, joints and marrow; it judges the thoughts and attitudes.</p>
+            <p>Our mission and vision is to provide leadership and encourage partnership in caring for the environment by inspiring, informing, and enabling nations and peoples to improve their quality of life without compromising that of future generations.</p>
         </div>
         <div class="col-sm-6 col-md-3">
           <h5>OUR ADDRESS</h5>
@@ -17,7 +17,7 @@
         <div class="col-sm-6 col-md-3">
           <h5>CONNECT</h5>
           <div class="social-icons">
-            <a href="#"><img src="{{ asset('image/fb-icon.png') }}" alt="social"></a>
+            <a href="https://www.facebook.com/nfoyc/?modal=admin_todo_tour" target="_blank"><img src="{{ asset('image/fb-icon.png') }}" alt="social"></a>
             <a href="#"><img src="{{ asset('image/tw-icon.png') }}" alt="social"></a>
             <a href="#"><img src="{{ asset('image/in-icon.png') }}" alt="social"></a>
           </div>
@@ -44,3 +44,5 @@
       </div>
     </div>
   </footer>
+
+  
