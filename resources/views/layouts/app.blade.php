@@ -10,7 +10,6 @@
   
   <title>{{ config('app.name','NFOYC') }}</title>  <!--website title -->
   
-  <script src="../../cdn-cgi/apps/head/-mEFVS8y7qx5pVzWHQTCQu5gnVM.js"></script>
   <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
   <link href="{{ asset('css/fancybox.css') }}" rel="stylesheet">
@@ -33,14 +32,18 @@
     <!--script files-->
     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="{{ asset('js/jquery.js') }}"></script>
-    
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('js/ketchup.all.js') }}"></script>
     <script src="{{ asset('js/fancybox.js') }}"></script>
     <script src="{{ asset('js/script.js') }}"></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="{{ asset('js/contact_form.js') }}"></script>
+    <script src="{{ asset('js/flexslider.js') }}"></script>
+    <script src="{{ asset('js/gcal.js') }}"></script>
+    <script src="{{ asset('js/moment.min.js') }}"></script>
+    <script src="{{ asset('js/-mEFVS8y7qx5pVzWHQTCQu5gnVM.js') }}"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
 </body>
 
 </html>

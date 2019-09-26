@@ -17,7 +17,7 @@
             <img class="img-responsive" src="{{ asset('image/image_2.jpg') }}" alt="image_2">
             <h5>Shahriar Hasan</h5>
             <p>Email: hasan.sharear@live.com</p>
-            <p><a href="https://www.facebook.com/sharear.hasan" role="button">Facebook</a> / <a href="#" role="button">Twitter</a></p>
+            <p><a href="https://www.facebook.com/sharear.hasan" role="button" target="_blank">Facebook</a> / <a href="#" role="button">Twitter</a></p>
           </div>
     
           <!--<div class="col-md-4 col-sm-8 col-sm-offset-2 col-md-offset-0 center-this has-margin-bottom">

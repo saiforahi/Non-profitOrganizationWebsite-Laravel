@@ -114,37 +114,37 @@
           <div class="owl-carousel">
             <div class="el-block item">
               <h4> JULY 16 </h4>
-              <p class="el-head">Weekly meeting &amp; prayer</p>
+              <p class="el-head">Weekly meeting &amp; discussion</p>
               <span>Monday 07:00 AM</span>
               <p class="el-cta"><a class="btn btn-primary" href="event-single.html" role="button">Details &rarr;</a></p>
             </div>
             <div class="el-block item">
               <h4> JUL 29 </h4>
-              <p class="el-head">Show me your faith</p>
+              <p class="el-head">Event on social works</p>
               <span>Thursday 02:00 PM</span>
               <p class="el-cta"><a class="btn btn-primary" href="event-single.html" role="button">Details &rarr;</a></p>
             </div>
             <div class="el-block item">
               <h4> SEP 19 </h4>
-              <p class="el-head">Perseravance of the saints</p>
+              <p class="el-head">Clean the capital</p>
               <span>Saturday 10:00 AM</span>
               <p class="el-cta"><a class="btn btn-primary" href="event-single.html" role="button">Details &rarr;</a></p>
             </div>
             <div class="el-block item">
               <h4> OCT 14 </h4>
-              <p class="el-head">God's irresistable grace</p>
+              <p class="el-head">Rohingya issue</p>
               <span>Sunday 11:00 AM</span>
               <p class="el-cta"><a class="btn btn-primary" href="event-single.html" role="button">Details &rarr;</a></p>
             </div>
             <div class="el-block item">
               <h4> JULY 16 </h4>
-              <p class="el-head">Weekly meeting &amp; prayer</p>
+              <p class="el-head">Weekly meeting &amp; discussion</p>
               <span>Monday 07:00 AM</span>
               <p class="el-cta"><a class="btn btn-primary" href="event-single.html" role="button">Details &rarr;</a></p>
             </div>
             <div class="el-block item">
               <h4> JUL 29 </h4>
-              <p class="el-head">Show me your faith</p>
+              <p class="el-head">Event on social works</p>
               <span>Thursday 02:00 PM</span>
               <p class="el-cta"><a class="btn btn-primary" href="event-single.html" role="button">Details &rarr;</a></p>
             </div>

@@ -6,33 +6,40 @@
             <p>Our mission and vision is to provide leadership and encourage partnership in caring for the environment by inspiring, informing, and enabling nations and peoples to improve their quality of life without compromising that of future generations.</p>
         </div>
         <div class="col-sm-6 col-md-3">
-          <h5>OUR ADDRESS</h5>
-          <p>Catholic Church<br>
+          <h5>OUR ADDRESS</h5><br>
+          <address><p>Ward no #32<br>Holding no #199<br>Jajor, Gazipur<br>Dhaka-1203</p></address>
+          <!--<p>Catholic Church<br>
             121 King Street, Melbourne<br>
             Victoria 3000 Australia<br><br>
             Phone: +61 3 8376 6284<br>
             Email: <a href="#"><span class="__c f_email__" data-cfemail="2449454d48644745504c4b484d47534146574d50410a474b49">[email&#160;protected]</span></a>
-          </p>
+          </p> -->
         </div>
         <div class="col-sm-6 col-md-3">
           <h5>CONNECT</h5>
           <div class="social-icons">
-            <a href="https://www.facebook.com/nfoyc/?modal=admin_todo_tour" target="_blank"><img src="{{ asset('image/fb-icon.png') }}" alt="social"></a>
-            <a href="#"><img src="{{ asset('image/tw-icon.png') }}" alt="social"></a>
-            <a href="#"><img src="{{ asset('image/in-icon.png') }}" alt="social"></a>
+            <a href="https://www.facebook.com/nfoyc/?modal=admin_todo_tour" target="_blank"><img src="{{ asset('image/fb-icon.png') }}" alt="facebook icon"></a>
+            <a href="#"><img src="{{ asset('image/tw-icon.png') }}" alt="twitter icon"></a>
+            <a href="#"><img src="{{ asset('image/in-icon.png') }}" alt="instagram icon"></a>
           </div>
         </div>
         <div class="col-sm-6 col-md-3">
           <h5>Subscribe</h5>
           <div class="social-icons">
-            <form method="POST" action="/">
-              <div class="form-group">
+            <form method="POST" action="{{ route('subscription') }}">
                 @csrf
+                @isset($error)
+                <div><p>{{ $error }}</p></div>
+              @endisset
+              @isset($success)
+                <div><p>{{ $success }}</p></div>
+              @endisset
+              <div class="form-group">
                 <label for="emailField">Email address</label>
-                <input type="email" class="form-control input-lg" placeholder="Enter email" name="emailField" id="address" data-validate="validate(required, email)" required>
+                <input type="email" class="form-control input-lg" placeholder="Enter email" name="emailField" id="emailField" data-validate="validate(required, email)" required>
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary">Subscribe</button>
             </form>
           </div>
         </div>

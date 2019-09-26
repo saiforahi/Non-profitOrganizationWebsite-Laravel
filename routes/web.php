@@ -12,6 +12,6 @@
 */
 
 Route::get('/', 'PagesController@home');
-Route::post('/','MailController@mailVerification');
+#Route::post('/','MailController@mailVerification');
 Route::get('/about','PagesController@about');
-Route::get('/subscribed/{email}','PagesController@storeEmail');
+Route::post('/','PagesController@storeEmail')->name('subscription');
