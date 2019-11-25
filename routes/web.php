@@ -15,3 +15,5 @@ Route::get('/', 'PagesController@home');
 #Route::post('/','MailController@mailVerification');
 Route::get('/about','PagesController@about');
 Route::post('/','PagesController@storeEmail')->name('subscription');
+Route::get('/contact','PagesController@contact')->name('contact');
+Route::post('/contact','PagesController@sendMessage')->name('sendMessage');

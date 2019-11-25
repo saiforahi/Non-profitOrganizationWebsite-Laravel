@@ -8,7 +8,7 @@
           <div class="col-md-4 col-sm-12 has-margin-bottom">
             <img class="img-responsive" src="{{ asset('image/image_1.jpg') }}" alt="image_1">
             <h5>Syed Tomal</h5>
-            <p>Email: Syedtomal@gmail.com <br>
+            <p>Chairman<br>Email: tomal@nfoyc.org <br>
               Cell: +8801308694388</p>
             <p><a href="#" role="button">Facebook</a> / <a href="#" role="button">Twitter</a></p>
           </div>
@@ -16,8 +16,15 @@
           <div class="col-md-4 col-sm-12 has-margin-bottom">
             <img class="img-responsive" src="{{ asset('image/image_2.jpg') }}" alt="image_2">
             <h5>Shahriar Hasan</h5>
-            <p>Email: hasan.sharear@live.com</p>
+            <p>Joint secretary<br>Email: shahriar@nfoyc.org</p>
             <p><a href="https://www.facebook.com/sharear.hasan" role="button" target="_blank">Facebook</a> / <a href="#" role="button">Twitter</a></p>
+          </div>
+
+          <div class="col-md-4 col-sm-12 has-margin-bottom">
+            <img class="img-responsive" src="{{ asset('image/image-3.jpg') }}" alt="image-3">
+            <h5>Ahmed Saiful</h5>
+            <p>Assistant Vice President and Training Officer<br>Email: saiful81611@gmail.com</p>
+            <p><a href="https://www.facebook.com/saiful.ahamed.790" role="button" target="_blank">Facebook</a> / <a href="#" role="button">Twitter</a></p>
           </div>
     
           <!--<div class="col-md-4 col-sm-8 col-sm-offset-2 col-md-offset-0 center-this has-margin-bottom">

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Message;
 use Illuminate\Http\Request;
 use App\subscriber;
 use Illuminate\Support\Facades\DB;
@@ -18,6 +19,10 @@ class PagesController extends Controller
         return view("pages.about");
     }
     
+    public function contact()
+    {
+        return view("pages.contact");
+    }
     public function storeEmail()
     {
         $messages = [
@@ -42,5 +47,35 @@ class PagesController extends Controller
             return view('pages.home')->with('success','Subscription is successful');
         }
         
+    }
+
+    public function sendMessage(Request $reque)
+    {
+        $rules=[
+            'name'=>'required|string',
+            'email'=>'required|strinng|email|max:255',
+            'cell'=>'required|string|max:20',
+            'message'=>'required|string'
+        ];
+
+        $messages=[
+            'name.required'=>'We need to know your name',
+            'cell.required'=>'we need to know your phone number'
+        ];
+        $validate=Validator::make(request()->all(),$rules,$messages);
+        if($validate)
+        {
+            $message=new Message;
+            $message->name=request('name');
+            $message->email=request('email');
+            $message->cell=request('cell');
+            $message->message=request('message');
+            $message->save();
+            return redirect()->back()->with('success','Message sent successfully');
+        }
+        else
+        {
+            return redirect()->back()->withErrors($validate,$messages)->withInput();
+        }
     }
 }

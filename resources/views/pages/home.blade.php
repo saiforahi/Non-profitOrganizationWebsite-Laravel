@@ -14,7 +14,7 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="{{ asset('image/banner1.jpg') }}" alt="Banner1 image">
+      <img class="img-responsive" src="{{ asset('image/banner1.jpg') }}" alt="Banner1 image">
       <div class="carousel-caption">
         <h3>Banner 1</h3>
         <p>Paragraph 1</p>
@@ -22,7 +22,7 @@
     </div>
 
     <div class="item">
-      <img src="{{ asset('image/banner 4.jpg') }}" alt="banner2 image">
+      <img class="img-responsive" src="{{ asset('image/banner 4.jpg') }}" alt="banner2 image">
       <div class="carousel-caption">
         <h3>Banner 2</h3>
         <p>Paragraph</p>
@@ -30,7 +30,7 @@
     </div>
 
     <div class="item">
-      <img src="{{ asset('image/youth.jpg') }}" alt="banner3 image">
+      <img class="img-responsive" src="{{ asset('image/Youth.jpg') }}" alt="banner3 image">
       <div class="carousel-caption">
         <h3>Banner 3</h3>
         <p>Paragraph</p>

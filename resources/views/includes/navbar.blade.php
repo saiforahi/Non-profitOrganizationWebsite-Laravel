@@ -51,7 +51,7 @@
               <li><a href="https://bit.ly/BuyCatholic">Buy this Template</a></li>
             </ul>
           </li> -->
-          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="{{ route('contact') }}">CONTACT</a></li>
         </ul>
       </div>
     </div>
